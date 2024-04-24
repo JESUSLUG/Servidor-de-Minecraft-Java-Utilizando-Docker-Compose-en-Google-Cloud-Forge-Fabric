@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      VERSION: "1.19.2"
+      ONLINE_MODE: "false"
+      MOD_PLATFORM: AUTO_CURSEFORGE
+      # Set CF_API_KEY=... in a .env file next to this compose file and don't source control that file
+      CF_API_KEY: ${CF_API_KEY}
+      CF_SLUG: better-mc-forge-bmc3
+      CF_FILENAME_MATCHER: v20
+      CF_EXCLUDE_MODS: |
+        ryoamiclights
+        jer-integration
+      CF_FORCE_SYNCHRONIZE: "true"
+      TYPE: FORGE
+      FORGE_VERSION: "43.3.5"
+      MEMORY: 4G
+    volumes:
+      - mc:/data
+      - ../downloads:/downloads
+    ports:
+      - "25565:25565"
+
+volumes:
+  mc: {}
