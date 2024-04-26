@@ -31,7 +31,29 @@ Lo primero es crear una cuenta en Google.... acceder a Google Cloud y registrart
 
 Si todo salió bien, estarás en una interfaz como esta:
 
-![Captura1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/6add52de-cbe4-4a84-a240-c4c4ff5cfcdc)
+![Captura1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/06a2b027-eea7-4bfb-a788-1157893f8d02)
+
+Ahora, crearemos un proyecto nuevo (ponle el nombre que gustes). 
+![Captura2](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/0098771c-78a6-4c8f-bacb-20f7584ddab0)
+
+![Captura desde 2024-04-26 09-02-11](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/b45f6bdf-eb9f-40e7-af69-ee6616135146)
+
+Al terminar nos quedara una interfaz como esta: 
+![Captura desde 2024-04-26 09-03-44](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/fea8ea45-4960-4a21-adb0-d7a0d54ccc8a)
+
+Luego, nos dirigimos a Compute Engine y hacemos clic en Instancias de VM (Virtual Machine (Máquina Virtual en español))  .
+![Forma 1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/bb20458b-d187-4d13-adb6-0048c2eb5a89)
+
+O puedes acceder a las instancias de VM desde la interfaz después de crear el proyecto.
+![Forma 1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/e6ae4105-aab8-4828-86e7-15006614efec)
+
+
+Tendremos que activar esta API "Compute Engine API", para crear y ejecutar máquinas virtuales en Google Cloud Platform.
+![Captura desde 2024-04-26 09-03-44](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/2f30960c-d10c-4a9b-92cd-dc3f910fcaf8)
+
+
+
+
 
 
 
