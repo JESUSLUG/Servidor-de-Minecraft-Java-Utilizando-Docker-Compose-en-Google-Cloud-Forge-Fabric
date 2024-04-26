@@ -35,7 +35,7 @@ Con estos $300 dólares, podrías financiar aproximadamente 8 meses de servidor 
 
 Ahora que hemos explicado esto, continuemos.
 
-Lo primero es crear una cuenta en Google.... acceder a Google Cloud y registrarte para obtener los créditos. Es necesario agregar una tarjeta de crédito, pero no se realizará ningún cargo; puedes eliminarla más adelante si lo deseas.
+- Lo primero es crear una cuenta en Google.... acceder a Google Cloud y registrarte para obtener los créditos. Es necesario agregar una tarjeta de crédito, pero no se realizará ningún cargo; puedes eliminarla más adelante si lo deseas.
 
 Si todo salió bien, estarás en una interfaz como esta:
 
