@@ -34,8 +34,6 @@ Si todo salió bien, estarás en una interfaz como esta:
 ![Captura1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/06a2b027-eea7-4bfb-a788-1157893f8d02)
 
 Ahora, crearemos un proyecto nuevo (ponle el nombre que gustes). 
-![Captura2](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/0098771c-78a6-4c8f-bacb-20f7584ddab0)
-
 ![Captura desde 2024-04-26 09-02-11](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/b45f6bdf-eb9f-40e7-af69-ee6616135146)
 
 Al terminar nos quedara una interfaz como esta: 
