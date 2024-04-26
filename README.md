@@ -52,6 +52,33 @@ Tendremos que activar esta API "Compute Engine API", para crear y ejecutar máqu
 ![Captura desde 2024-04-26 09-03-44](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/2f30960c-d10c-4a9b-92cd-dc3f910fcaf8)
 
 
+Ahora, creamos la instancia. Le damos click en **CREAR INSTANCIA**
+Ponemos el nombre que gustemos y seleccionamos la regios y zona que mas nos convenga. 
+Luego en configuracion de la maquina, elegimos una instancia EC2
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/48a85f65-ee3b-4e16-a491-c9ac72c774c4)
+
+Luego personalizamos el procedor y la ram, en este caso, usamos 4 nucleos y 8 gb de ram 
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/6acc8fdf-2cd7-4e9f-bd3f-9f042976ef03)
+
+
+Luego nos vamos a Disco de arranque y le damos en **CAMBIAR**, esto es importante para que la generacion de mundo sea rapido tanto para el sever, como para tus jugadores. 
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/d22daa67-67ef-4668-8b5e-49d747d3cab4)
+
+Nos mandará a esta interfaz, en la cual elegiremos el espacio de disco que consideremos. En este caso, lo dejé en 10 GB. Elige el sistema operativo Ubuntu, la versión 24.04 LTS y el tipo de disco de arranque "Disco persistente estándar".
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/b05a127e-e816-493e-8bbd-25f71ed0a35c)
+
+Luego bajamos más y nos vamos a Firewall y marcamos con un check Permitir tráfico HTTP y Permitir tráfico HTTPS. El balanceo de cargas nos podría servir si mostráramos más de un servidor en la misma instancia, pero en este caso pasaremos de ello. 
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/0aadc63b-3594-412e-aa0b-f1f4d2ef5915)
+
+Ahora nos vamos en opciones en avanzadas
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/c61f293f-adfd-4395-afbb-2ba96ed83e39)
+
+Herramientas de redes y ponemos una etiqueta de red que nos servirá más adelante.
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/77d5d203-dbcd-486d-9bae-fb4e05aa7052)
+
+Le damos en Crear. Esto tomará un poco de tiempo, ya que quede, debería verse algo así.
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/56e409c0-4d55-44c6-a24c-9e94df698a96)
+
 
 
 
