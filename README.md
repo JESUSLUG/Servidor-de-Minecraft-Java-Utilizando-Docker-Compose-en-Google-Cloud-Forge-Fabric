@@ -30,7 +30,8 @@ Ahora que hemos explicado esto, continuemos.
 Lo primero es crear una cuenta en Google.... acceder a Google Cloud y registrarte para obtener los créditos. Es necesario agregar una tarjeta de crédito, pero no se realizará ningún cargo; puedes eliminarla más adelante si lo deseas.
 
 Si todo salió bien, estarás en una interfaz como esta:
-![Texto alternativo](https://drive.google.com/file/d/1SSw83JkGgH3z6zfdjAqRMBVEmumdiUD9/view?usp=sharing)
+
+![Captura1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/6add52de-cbe4-4a84-a240-c4c4ff5cfcdc)
 
 
 
