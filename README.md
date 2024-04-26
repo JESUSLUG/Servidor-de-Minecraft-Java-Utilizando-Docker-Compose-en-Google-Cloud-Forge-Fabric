@@ -93,12 +93,15 @@ Luego en Filtro de origen, seleccionamos rangos de de IPv4 y
 Rangos de IPv4 de origen 0.0.0.0/4, esto significa que cualquier dirección IP puede acceder al servidor de Minecraft. 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/d5ab7db1-ec4b-47f8-a917-bf24043fb476)
 
-Y ahora, para que estas IPs accedan, es importante activar el protocolo TCP en el puerto 25565. Este puerto en particular se elige porque es el puerto predeterminado al montar el servidor.
+Y ahora, para que estas IPs accedan, es importante activar el protocolo TCP en el puerto 25565. Este puerto en particular se elige porque es el puerto predeterminado al montar el servidor (esto en las configuraciones del contenedor y el archivo server.properties ).
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/f8e93e8c-0f0a-4ae1-9acb-ebe83b158109)
 
+Una vez que hayas terminado de hacer los ajustes, simplemente guarda los cambios y espera un momento mientras se aplican.
 
-
+Luego de que estas se apliquen, regresaremos al apartado de instancias VM. Y le daremos en SSH (Secure Shell) para conectarnos a la Maquina virtual.  
+<img src="https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/49e7738b-108d-45e7-9860-a35c33723f86" alt="imagen" style="width: 300px; height: 200px;">
+Al hacer clic, tenemos varias opciones, pero por defecto debería abrirnos otra pestaña del navegador para acceder a la terminal de la VM.
 
 ---
 
