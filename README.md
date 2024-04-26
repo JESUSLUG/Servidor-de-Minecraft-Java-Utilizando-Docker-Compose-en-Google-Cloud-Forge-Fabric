@@ -106,6 +106,8 @@ Al hacer click, tenemos varias opciones, pero por defecto debería abrirnos otra
 
 ---
 
+### Dentro De La VM
+
 Actualizamos el sistema desplegado.
 
 ```
