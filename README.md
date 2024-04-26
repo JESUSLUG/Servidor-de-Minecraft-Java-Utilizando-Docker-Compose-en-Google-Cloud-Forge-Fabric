@@ -100,7 +100,7 @@ Y ahora, para que estas IPs accedan, es importante activar el protocolo TCP en e
 Una vez que hayas terminado de hacer los ajustes, simplemente guarda los cambios y espera un momento mientras se aplican.
 
 Luego de que estas se apliquen, regresaremos al apartado de instancias VM. Y le daremos en SSH (Secure Shell) para conectarnos a la Maquina virtual.  
-<img src="https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/49e7738b-108d-45e7-9860-a35c33723f86" alt="imagen" style="width: 200px; height: 150px;">
+<img src="https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/49e7738b-108d-45e7-9860-a35c33723f86" alt="imagen" style="width: 150px; height: 200px;">
 
 Al hacer clic, tenemos varias opciones, pero por defecto debería abrirnos otra pestaña del navegador para acceder a la terminal de la VM.
 
