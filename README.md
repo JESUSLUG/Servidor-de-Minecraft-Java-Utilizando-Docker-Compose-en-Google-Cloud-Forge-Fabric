@@ -153,7 +153,7 @@ Primero copiamos este repo, en la terminal de la vm con (esto para tener el dock
 git clone https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla.git
 ```
 Usaremos la API de Curseforge, esto se debe a que el contenedor accederá a esta API para descargar los mods de esta página.
-Accedemos a https://console.curseforge.com/?#/  Nos vamos a API KEY y copiamos ese nuemoer
+Accedemos a https://console.curseforge.com/?#/  Nos vamos a API KEY y copiamos.
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/dc7dc027-b28e-42b6-b3fa-a9709e29e5c6)
 
