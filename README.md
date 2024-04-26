@@ -18,6 +18,21 @@ Dicho esto, en este repositorio busca explicar desde cómo montar el servidor en
 
 --- 
 
+### Creando la instancia de Google Cloud.
+
+En primer lugar, me gustaría mencionar que entre las opciones de servicios en la nube disponibles actualmente, casi todas ofrecen una prueba gratuita por un cierto período de tiempo o proporcionan créditos para utilizar su plataforma. En el caso de Google Cloud, ofrecen una prueba de $300 dólares, lo que equivale aproximadamente a 6300 pesos mexicanos. El costo mensual varía dependiendo de la instancia que utilices y de cuánto la emplees. Es importante destacar que la configuración de la instancia que se utiliza en Google Cloud tiende a ser similar en otros servicios de nube.
+
+Con estos $300 dólares, podrías financiar aproximadamente 8 meses de servidor para el juego, más o menos. **Desde mi perspectiva**, considero que esta es una excelente oportunidad para comenzar a utilizar Google Cloud, Docker y Docker Compose y aprender algo nuevo en el proceso y ya más adelante usar esos créditos en otra cosa:). 
+Sin embargo, cada persona tiene su propia perspectiva;).
+
+Ahora que hemos explicado esto, continuemos.
+
+Lo primero es crear una cuenta en Google.... acceder a Google Cloud y registrarte para obtener los créditos. Es necesario agregar una tarjeta de crédito, pero no se realizará ningún cargo; puedes eliminarla más adelante si lo deseas.
+
+Si todo salió bien, estarás en una interfaz como esta:
+![Texto alternativo](https://drive.google.com/file/d/1SSw83JkGgH3z6zfdjAqRMBVEmumdiUD9/view?usp=sharing)
+
+
 
 ---
 
