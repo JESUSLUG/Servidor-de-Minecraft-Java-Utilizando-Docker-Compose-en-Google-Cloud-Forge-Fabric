@@ -187,10 +187,10 @@ Si todo está bien, debería salir algo así.
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/e3a650f1-5b74-4481-bfc7-926cb3096852)
 
-Ahora, como lo levantamos, este aún no estará listo. Pues está descargando los mods y toca la cosa. Así que para ver cómo va, copiamos el CONTAINER ID y escribimos..
+Ahora, como lo levantamos, este aún no estará listo. Pues está descargando los mods y toca la cosa. Así que para ver cómo va, copiamos el numero de CONTAINER ID y escribimos..
 
 ```
-docker logs -f CONTAINER-ID 
+docker logs -f <nombre_del_contenedor_o_ID_del_contenedor> 
 ```
 
 En esto, veremos qué está haciendo el contenedor, qué está descargando y cómo va. Este proceso tardará unos 5 a 10 minutos.
@@ -213,6 +213,80 @@ Ahora, solo entra a tu minecraft y accede con la IP, esta ip se encuentra en la 
 ---
 
 ### Modificar docker-compose para Forge o Fabric.
+
+Ahora, hay varios detalles a destacar de la estructura de nuestro docker-compose, primero lo abriremos con:
+
+```
+nano docker-compose.yml 
+```
+
+Éste contiene lo siguiente:
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/c9c0e9e1-8425-4a8f-86b4-7cf4634a37d5)
+
+Este nos sirve para declarar la versión deseada del juego, **VERSION: "1.19.2"**. Esto puede ser ignorado, ya que el Forge o Fabric que se descargue y la lógica de la imagen suelen saber qué versión se necesita. Sin embargo, lo agregué para evitar cualquier tipo de error. La versión del juego depende del Forge que vayas a usar.
+
+Este, es lo que nos ayudo a llamar el .env para llamar la API de CuseForge **CF_API_KEY: ${CF_API_KEY}**.
+
+Este nos sirve para declarar el nombre del paquete de mods que usarás **CF_SLUG: better-mc-forge-bmc3**, siendo el caso de Better Minecraft Forge BMC3.
+
+El **CF_FILENAME_MATCHER: v20** nos sirve como versión del Matcher. Si usamos otra que no sea del pack que estés descargando, te dará error...
+
+Y el **FORGE_VERSION: "43.3.5"**, nos sirve para declarar la versión que se descargará... el **TYPE: FORGE** depende de si es Forge o Fabric...
+
+Toda esta información la sacarás del Forge o Fabric que vayas a usar, siempre y cuando esté descargado de **Curse Forge**.
+
+Ejemplo, si queremos usar este:
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/92d701ed-e686-4e9d-be93-70621338dcc9)
+
+
+Tendremos que identificar ciertos apartados. El primero es la URL: https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc3/files/4889399
+Para poder llenar **CF_SLUG:** con lo que queremos descargar, tenemos que identificar en la URL algo como esto: **better-mc-forge-bmc3**
+Siendo que en la URL, está aquí: https://www.curseforge.com/minecraft/modpacks/**better-mc-forge-bmc3**/files/4889399
+
+
+Y la Version del juego, se identifica con el zip que hay para descargar, siendo **VERSION: "1.19.2"**, Better_MC_[FORGE]_**1.19.2**_v20.zip
+Luego está el **CF_FILENAME_MATCHER: v20**. Como muestra la imagen, la versión se identifica al final del zip. Siendo en este caso, Better_MC_[FORGE]_1.19.2_**v20**.zip
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/225c2d42-e206-470d-b436-03735f993729)
+
+Ahora, para finalizar estos detalles, toca ver la versión del Forge. **FORGE_VERSION: "43.3.5"**, este se encuentra en la parte de abajo:
+Recuerda que el **TYPE: FORGE** depende de si es Forge o Fabric. 
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/729b990f-e03b-47aa-97cb-e623e12fdcf6)
+
+
+### ERRORES AL MONTAR 
+
+Bien, para finalizar este repositorio, es importante explicar que algunos paquetes de mods tienden a modificar estos mods al descargarlos. El contenedor puede creer que necesita otras dependencias de mods que ya no están en el pack, lo que hace que falle al instalar y no se pueda montar correctamente.
+
+Por ejemplo, el error al inicio de intentar montar este servidor era el siguiente:
+
+```
+Mod ID: 'spruceui', Requested by: 'ryoamiclights', Expected range: '*', Actual version: '[MISSING]'
+Mod ID: 'jeresources', Requested by: 'jerintegration', Expected range: '[0.14.1.160,)', Actual version: '[MISSING]'
+```
+
+Lo que tenemos que hacer es decirle al contenedor que no queremos estos mods. Claro, para identificar qué mods son los que causan el error, tendremos que ejecutar el contenedor, revisar los logs y apuntar los nombres de esos mods. Luego, iremos al contenedor y en **CF_EXCLUDE_MODS** pondremos dichos mods que causan el problema.
+
+```
+      CF_EXCLUDE_MODS: |
+        ryoamiclights
+        jer-integration
+      CF_FORCE_SYNCHRONIZE: "true"
+```
+
+Y para resolver el problema sin tener que detener y matar el contenedor, usamos **CF_FORCE_SYNCHRONIZE: "true"** para garantizar que se limpien las modificaciones excluidas.
+
+DATOS
+
+CUANDO HAGAS CAMBIOS EN EL COMPOSE, VUELVE A CORRERLO CON
+
+```
+docker-compose up -d
+```
+
+DOCKER SE EJECUTA DESDE SUPER USARIO, SI VUELVES A HACER CAMBIOS TIENES QUE ENTRAR COMO USARIO ROOT O SIEMPRE PONER **sudo docker ...** 
 
 
 ---
