@@ -143,3 +143,37 @@ docker-compose
 ```
 
 ---
+### Montar el Docker Compose
+
+Ahora, gracias al archivo de docker-compose que está en este repositorio, con darle un docker-compose up -d, ya tendrías básicamente el servidor montado, siendo BetterMC Forge: BMC3 en su versión 1.19.2. Así que explicaremos eso y luego nos iremos a los detalles.
+
+Primero copiamos este repo, en la terminal de la vm con (esto para tener el docker-compose) 
+
+```
+git clone https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla.git
+```
+
+Ya copiado, lo levantamos.
+
+```
+docker-compose up -d
+```
+
+Esperamos... y escribimos lo siguiente para ver si está en nuestro listado de contenedores.
+
+```
+docker ps
+```
+
+Si todo está bien, debería salir algo así.
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/e3a650f1-5b74-4481-bfc7-926cb3096852)
+
+Ahora, como lo levantamos, este aun no estara listo. Pues esta descargando los mods y toca la cosa. Asi quee para ver como va. Copiamos el CONTAINER ID , y escribimos 
+
+```
+docker logs -f CONTAINER-ID 
+```
+
+
+---
