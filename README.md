@@ -152,8 +152,23 @@ Primero copiamos este repo, en la terminal de la vm con (esto para tener el dock
 ```
 git clone https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla.git
 ```
+Usaremos la API de Curseforge, esto se debe a que el contenedor accederá a esta API para descargar los mods de esta página.
+Accedemos a https://console.curseforge.com/?#/  Nos vamos a API KEY y copiamos ese nuemoer
 
-Ya copiado, lo levantamos.
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/dc7dc027-b28e-42b6-b3fa-a9709e29e5c6)
+
+Ya copiado, toca crear un archivo .env
+
+```
+nano .env
+```
+
+y pegamos CF_API_KEY=**TUAPIDECURSEFORGE**
+
+Pulsamos Ctrl + X y luego Yes para guardar. Para confirmar si se guardó, volvemos a abrir el archivo con nano .env y lo que hemos escrito debería estar allí.
+
+
+Ahora si. Levantamos el contenedor
 
 ```
 docker-compose up -d
@@ -169,11 +184,12 @@ Si todo está bien, debería salir algo así.
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/e3a650f1-5b74-4481-bfc7-926cb3096852)
 
-Ahora, como lo levantamos, este aun no estara listo. Pues esta descargando los mods y toca la cosa. Asi quee para ver como va. Copiamos el CONTAINER ID , y escribimos 
+Ahora, como lo levantamos, este aún no estará listo. Pues está descargando los mods y toca la cosa. Así que para ver cómo va, copiamos el CONTAINER ID y escribimos..
 
 ```
 docker logs -f CONTAINER-ID 
 ```
 
+En esto, veremos qué está haciendo el contenedor, qué está descargando y cómo va. Este proceso tardará unos 5 a 10 minutos.
 
 ---
