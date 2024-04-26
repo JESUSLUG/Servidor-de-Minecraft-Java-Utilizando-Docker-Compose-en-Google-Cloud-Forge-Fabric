@@ -1,4 +1,4 @@
-# Servidor de Minecraft utilizando Docker Compose en Google Cloud - Para Forge, Fabric o Vanilla. 
+# Servidor de Minecraft Java utilizando Docker Compose en Google Cloud - Para Forge, Fabric o Vanilla. 
 Despliegue de un Servidor de Minecraft Modificado con Forge, Fabric utilizando Docker-Compose en Google Cloud (En este caso, BetterMC Forge: BMC3)
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/872bd56d-8f71-4d93-905e-5c740a717b1a)
