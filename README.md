@@ -7,18 +7,18 @@ Actualizamos el sistema desplegado.
 sudo apt-get update
 ```
 
-Luego instalamos docker
+Luego instalamos docker.
 
 ```
 sudo apt-get install docker.io --yes
 ```
 
-Nos podemos como usario root
+Nos ponemos como usuario root.
 
 ```
 sudo su
 ```
-e instalamos docker-compose
+e instalamos docker-compose.
 
 ```
 curl -L https://github.com/docker/compose/releases/download/1.28.5/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
