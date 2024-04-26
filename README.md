@@ -18,6 +18,9 @@ Dicho esto, en este repositorio busca explicar desde cómo montar el servidor en
 
 --- 
 
+
+---
+
 Actualizamos el sistema desplegado.
 
 ```
@@ -51,3 +54,5 @@ docker
 ```
 docker-compose
 ```
+
+---
