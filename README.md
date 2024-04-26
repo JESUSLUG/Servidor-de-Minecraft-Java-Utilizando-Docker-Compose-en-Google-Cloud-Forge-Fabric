@@ -44,6 +44,7 @@ Luego, nos dirigimos a Compute Engine y hacemos clic en Instancias de VM (Virtua
 ![Forma 1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/bb20458b-d187-4d13-adb6-0048c2eb5a89)
 
 O puedes acceder a las instancias de VM desde la interfaz después de crear el proyecto.
+
 ![Forma 2](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/e6ae4105-aab8-4828-86e7-15006614efec)
 
 
