@@ -37,7 +37,8 @@ Ahora, crearemos un proyecto nuevo (ponle el nombre que gustes).
 ![Captura desde 2024-04-26 09-02-11](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/b45f6bdf-eb9f-40e7-af69-ee6616135146)
 
 Al terminar nos quedara una interfaz como esta: 
-![Captura desde 2024-04-26 09-03-44](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/fea8ea45-4960-4a21-adb0-d7a0d54ccc8a)
+![Captura desde 2024-04-26 09-05-30](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/5439d6fd-b8b3-4d7a-b576-e2edeb608265)
+
 
 Luego, nos dirigimos a Compute Engine y hacemos clic en Instancias de VM (Virtual Machine (Máquina Virtual en español))  .
 ![Forma 1](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/bb20458b-d187-4d13-adb6-0048c2eb5a89)
