@@ -62,6 +62,7 @@ Luego personalizamos el procedor y la ram, en este caso, usamos 4 nucleos y 8 gb
 
 
 Luego nos vamos a Disco de arranque y le damos en **CAMBIAR**, esto es importante para que la generacion de mundo sea rapido tanto para el sever, como para tus jugadores. 
+
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/d22daa67-67ef-4668-8b5e-49d747d3cab4)
 
 Nos mandará a esta interfaz, en la cual elegiremos el espacio de disco que consideremos. En este caso, lo dejé en 10 GB. Elige el sistema operativo Ubuntu, la versión 24.04 LTS y el tipo de disco de arranque "Disco persistente estándar".
