@@ -150,7 +150,7 @@ Ahora, gracias al archivo de docker-compose que está en este repositorio, con d
 Primero copiamos este repo, en la terminal de la vm con (esto para tener el docker-compose) 
 
 ```
-git clone https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla.git
+git clone https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla.git
 ```
 Usaremos la API de Curseforge, esto se debe a que el contenedor accederá a esta API para descargar los mods de esta página.
 Accedemos a https://console.curseforge.com/?#/  Nos vamos a API KEY y copiamos.
