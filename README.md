@@ -3,6 +3,14 @@ Despliegue de un Servidor de Minecraft Modificado con Forge, Fabric utilizando D
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/872bd56d-8f71-4d93-905e-5c740a717b1a)
 
+**Desde mi perspectiva**, considero que esta es una excelente oportunidad para comenzar a utilizar Google Cloud, Docker y Docker Compose y aprender algo nuevo en el proceso. Google Cloud ofrece alrededor de 300 dólares en créditos, y pues... se pueden usar igual para seguir aprendiendo a usar este servicio de nube y ya más adelante emplear esos créditos en otra cosa :). Sin embargo, cada persona tiene su propia perspectiva ;).
+
+### Diagrama de flujo
+El siguiente diagrama de flujo intenta explicar la arquitectura detrás de todo el proceso de montar este servidor.
+![Usuario](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric/assets/116361712/da390f7d-ef2d-4237-9b54-98380c7ac04b)
+
+
+
 
 ---
 
@@ -13,9 +21,7 @@ En este repo, utilizamos la imagen de Docker proporcionada por itzg, la cual es 
 Sin embargo, es importante señalar que aunque la documentación es detallada, pueden perderse algunos detalles, especialmente cuando se trata de montar un servidor con mods, forge o fabric. Aunque esta funcionalidad está explicada, puede ser un poco confusa para aquellos que son nuevos en estas tecnologías.
 
 Dicho esto, todo el crédito por la imagen de Docker debe ir a itzg. Puedes encontrar más información sobre la imagen y su funcionamiento en el repositorio oficial:
-[Perfil de Github de itzg](https://github.com/itzg)
-[Repo de itzg](https://github.com/itzg/docker-minecraft-server)
-[Documentación](https://docker-minecraft-server.readthedocs.io/en/latest/)
+[Perfil de Github de itzg](https://github.com/itzg), [Repo de itzg](https://github.com/itzg/docker-minecraft-server), [Documentación](https://docker-minecraft-server.readthedocs.io/en/latest/).
 
 Dicho esto, en este repositorio busca explicar desde cómo montar el servidor en el servicio de Google Cloud hasta las configuraciones del docker-compose para instalar el paquete de mods de tu elección. Esa clase de cosas que no las encuentras en un mismo repositorio :) 
 
@@ -25,8 +31,7 @@ Dicho esto, en este repositorio busca explicar desde cómo montar el servidor en
 
 En primer lugar, me gustaría mencionar que entre las opciones de servicios en la nube disponibles actualmente, casi todas ofrecen una prueba gratuita por un cierto período de tiempo o proporcionan créditos para utilizar su plataforma. En el caso de Google Cloud, ofrecen una prueba de $300 dólares, lo que equivale aproximadamente a 6300 pesos mexicanos. El costo mensual varía dependiendo de la instancia que utilices y de cuánto la emplees. Es importante destacar que la configuración de la instancia que se utiliza en Google Cloud tiende a ser similar en otros servicios de nube.
 
-Con estos $300 dólares, podrías financiar aproximadamente 8 meses de servidor para el juego, más o menos. **Desde mi perspectiva**, considero que esta es una excelente oportunidad para comenzar a utilizar Google Cloud, Docker y Docker Compose y aprender algo nuevo en el proceso y ya más adelante usar esos créditos en otra cosa:). 
-Sin embargo, cada persona tiene su propia perspectiva;).
+Con estos $300 dólares, podrías financiar aproximadamente 8 meses de servidor para el juego, más o menos.
 
 Ahora que hemos explicado esto, continuemos.
 
