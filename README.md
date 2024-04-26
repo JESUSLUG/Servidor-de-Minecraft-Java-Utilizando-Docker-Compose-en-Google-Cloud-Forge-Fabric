@@ -203,9 +203,11 @@ Dentro de este esta los archivos del mundo, ajustes del servidor del juego, etc.
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/0edc40d1-7fbb-4d78-be6e-499c6b575c9a)
 
 
-Ahora, solo entra a tu minecraft y accede con la IP, esta ip se encuentra en la plataforma de Google Cloud- Instancias VM
+Ahora, solo entra a tu minecraft y accede con la IP, esta ip se encuentra en la plataforma de Google Cloud- Instancias VM. **IP EXTERNA**
 
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/ccaa11c9-c941-4b78-b5e7-6c7689395cdc)
+
+
 
 
 
