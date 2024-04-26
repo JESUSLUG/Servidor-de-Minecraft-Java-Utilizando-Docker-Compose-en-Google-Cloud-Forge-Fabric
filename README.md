@@ -13,8 +13,8 @@ Dicho esto, todo el crédito por la imagen de Docker debe ir a itzg. Puedes enco
 
 [https://github.com/itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
 
+Dicho esto, en este repositorio busca explicar desde cómo montar el servidor en el servicio de Google Cloud hasta las configuraciones del docker-compose para instalar el paquete de mods de tu elección.
 
-Dicho esto, en este repositorio buscamos explicar desde cómo montar el servidor en el servicio de Google Cloud hasta las configuraciones del docker-compose para instalar el paquete de mods de tu elección.
 --- 
 
 Actualizamos el sistema desplegado.
