@@ -81,7 +81,21 @@ Herramientas de redes y ponemos una etiqueta de red que nos servirá más adelan
 Le damos en Crear. Esto tomará un poco de tiempo, ya que quede, debería verse algo así.
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/56e409c0-4d55-44c6-a24c-9e94df698a96)
 
+Ahora, nos vamos en configurar reglas de Firewall.
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/fe704d9c-5be2-46ae-80d7-976f63487eb5)
 
+Le pondremos un nombre significativo, para que no olvidemos para qué sirve.
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/36faa605-5c67-4354-9c26-b3bb1748fd13)
+
+Prioridad en 1000, etiqueta de destino, le ponemos la misma etiqueta que pusimos en "Herramientas de redes". (Sé que la de la captura de pantalla anterior es diferente a esta, así que calma).
+Luego en Filtro de origen, seleccionamos rangos de de IPv4 y 
+Rangos de IPv4 de origen 0.0.0.0/4, esto significa que cualquier dirección IP puede acceder al servidor de Minecraft. 
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/d5ab7db1-ec4b-47f8-a917-bf24043fb476)
+
+Y ahora, para que estas IPs accedan, es importante activar el protocolo TCP en el puerto 25565. Este puerto en particular se elige porque es el puerto predeterminado al montar el servidor.
+
+![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/f8e93e8c-0f0a-4ae1-9acb-ebe83b158109)
 
 
 
