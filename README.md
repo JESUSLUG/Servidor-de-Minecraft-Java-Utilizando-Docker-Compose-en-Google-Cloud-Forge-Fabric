@@ -101,7 +101,8 @@ Una vez que hayas terminado de hacer los ajustes, simplemente guarda los cambios
 
 Luego de que estas se apliquen, regresaremos al apartado de instancias VM. Y le daremos en SSH (Secure Shell) para conectarnos a la Maquina virtual.  
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/49e7738b-108d-45e7-9860-a35c33723f86)
-Al hacer clic, tenemos varias opciones, pero por defecto debería abrirnos otra pestaña del navegador para acceder a la terminal de la VM.
+
+Al hacer click, tenemos varias opciones, pero por defecto debería abrirnos otra pestaña del navegador para acceder a la terminal de la VM.
 
 ---
 
