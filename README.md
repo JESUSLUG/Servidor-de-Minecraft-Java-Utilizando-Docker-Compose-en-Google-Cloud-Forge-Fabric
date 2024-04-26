@@ -72,6 +72,7 @@ Luego bajamos más y nos vamos a Firewall y marcamos con un check Permitir tráf
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/0aadc63b-3594-412e-aa0b-f1f4d2ef5915)
 
 Ahora nos vamos en opciones en avanzadas
+
 ![image](https://github.com/JESUSLUG/Servidor-de-Minecraft-Forge-utilizando-Docker-Compose-en-Google-Cloud-Forge-Fabric-Vanilla/assets/116361712/c61f293f-adfd-4395-afbb-2ba96ed83e39)
 
 Herramientas de redes y ponemos una etiqueta de red que nos servirá más adelante.
